@@ -106,7 +106,7 @@ if st.button("🔍 Predict House Price"):
 
     # Display only the columns that have values
     # Make prediction
-        prediction = model.predict(input_df)
+    prediction = model.predict(input_df)
 
     price = prediction[0]
 
